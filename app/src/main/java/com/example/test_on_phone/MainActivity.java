@@ -42,6 +42,7 @@ public class MainActivity extends Activity {
         }
         catch (Exception e){
             // Camera is not available (in use or does not exist)
+
         }
         return c; // returns null if camera is unavailable
     }

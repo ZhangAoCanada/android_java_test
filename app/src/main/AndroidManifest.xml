@@ -3,10 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.test_on_phone">
 
-    <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="17" />
-
     <!-- permission for using the camera (must do)-->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-feature android:name="android.hardware.camera" />
